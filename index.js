@@ -23,7 +23,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var newKitten = kittens.slice(name);
+  var newKitten = kittens.slice(name,0,4);
   return newKitten;
 }
 
